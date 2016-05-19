@@ -1,0 +1,38 @@
+{
+  "name": "xrate",
+  "version": "1.0.0",
+  "description": "A simple angular filter for displaying an exchange rate properly depending on its value",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "jshint ./src/xrate.js ./tests/xrate.spec.js",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carnid/xrate.git"
+  },
+  "keywords": [
+    "currency",
+    "exchange",
+    "rate",
+    "angular",
+    "filter"
+  ],
+  "author": "Alexandre Vinet (vinetalexandre42@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carnid/xrate/issues"
+  },
+  "homepage": "https://github.com/Carnid/xrate#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

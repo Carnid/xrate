@@ -1,0 +1,28 @@
+{
+  "name": "xrate",
+  "homepage": "https://github.com/Carnid/xrate",
+  "authors": [
+    "Alexandre Vinet (vinetalexandre42@gmail.com)"
+  ],
+  "description": "A simple angular filter for displaying an exchange rate properly depending on its value",
+  "main": "angular-xrate.js",
+  "keywords": [
+    "currency",
+    "exchange",
+    "rate",
+    "xrate",
+    "angular",
+    "filter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
